@@ -1,0 +1,13 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Книга",
+  "description": "Описание книги",
+  "authors": "Автор книги"
+}
+
+###
+
+GET http://localhost:3000/books
+Content-Type: application/json
